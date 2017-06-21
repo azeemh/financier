@@ -1,0 +1,32 @@
+<%= form_with(model: cashflow, local: true) do |form| %>
+  <% if cashflow.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(cashflow.errors.count, "error") %> prohibited this cashflow from being saved:</h2>
+
+      <ul>
+      <% cashflow.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :amount %>
+    <%= form.text_field :amount, id: :cashflow_amount %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description, id: :cashflow_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :user_id %>
+    <%= form.collection_select :user_id, User.order(:name),:id,:name, include_blank: false %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
