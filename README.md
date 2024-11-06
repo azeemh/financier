@@ -15,6 +15,6 @@ You can use this to build a bank or any other finance/account system. You can al
 This is super basic without any ui frameworks to just give you a boilerplate starting point where everything works but no design customizations have been made.
 
 
-## Updated to Rails 7, ruby 3.1.2. compatible with postgres 9.6+, 14 seems to work fine.
+## TERMUX VERSION RUNS Rails 7, ruby 3.3.2. compatible with postgres, 14 seems to work fine.
 
-Dear Noobs: remember to `rails db:setup` after you clone it.
+Dear Noobs: remember to `rails db:setup` after you clone it. and make sure your database is running etc. lol.
