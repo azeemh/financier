@@ -23,4 +23,4 @@ pertinent to termux will need to
 ## stay up to date 
 `git pull origin termux`
 
-Dear Noobs: remember to `rails db:setup` after you clone it. and make sure your database is running etc. =)
+Dear Noobs: remember to `rails db:setup` after you clone it. and make sure your database is running etc. 😊
