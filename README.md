@@ -1,6 +1,6 @@
 # Financier Termux
 
-## identical to financier master but maintained to run on a termux android server. now your whole app runs on a phone connected to a solar panel. just make sure it has wifi. lol. (if anyone wants to make a raspbian branch that's cool too.)
+## identical to financier master but maintained to run on a termux android server. now your whole app runs on a phone connected to a solar panel. just make sure it has wifi. (if anyone wants to make a raspbian branch that's cool too.)
 
 A user has a balance which starts at 0 on user creation and reflects the sum of the amount of all cashflows.
 
