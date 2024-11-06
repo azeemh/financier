@@ -18,6 +18,6 @@ This is super basic without any ui frameworks to just give you a boilerplate sta
 ## TERMUX VERSION RUNS Rails 7, ruby 3.3.2. compatible with postgres, 14 seems to work fine.
 
 pertinent to termux will need to
-gem install nokogiri --platform=ruby -- --use-system-libraries
+`gem install nokogiri --platform=ruby -- --use-system-libraries`
 
 Dear Noobs: remember to `rails db:setup` after you clone it. and make sure your database is running etc. lol.
