@@ -20,4 +20,7 @@ This is super basic without any ui frameworks to just give you a boilerplate sta
 pertinent to termux will need to
 `gem install nokogiri --platform=ruby -- --use-system-libraries`
 
+## stay up to date 
+`git pull origin termux`
+
 Dear Noobs: remember to `rails db:setup` after you clone it. and make sure your database is running etc. lol.
