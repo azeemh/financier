@@ -21,7 +21,8 @@ gem "websocket-extensions", ">= 0.1.5"
 gem "actionpack", ">= 5.2.4.6"
 gem "activerecord", ">= 5.2.4.5"
 
-gem 'pry', git: 'https://github.com/pry/pry.git', ref: '272b3290b5250d28ee82a5ff65aa3b29b825e37b'
+#gem 'pry', git: 'https://github.com/pry/pry.git', ref: '272b3290b5250d28ee82a5ff65aa3b29b825e37b'
+gem 'pry', '~> 0.14.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 6.0'
